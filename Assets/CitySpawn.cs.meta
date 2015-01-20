@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: 3405a80bf4f92aa45b05f66321d81ab6
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - satellitePrefab: {fileID: 166582, guid: fd06f58737d39234ba2cc9ad376f9f19, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
