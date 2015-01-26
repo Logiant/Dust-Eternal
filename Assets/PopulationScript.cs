@@ -26,7 +26,7 @@ public class PopulationScript : MonoBehaviour {
 		float popGrowth = (1/(1+Mathf.Exp (-extraFood)) - 0.5f) * GROWTH_CONSTANT * population / CityScript.DAY_LENGTH; //sigmoid function to model growth per day
 		
 		if (inventory.getResource("food") == 0)
-			popGrowth *= SHRINK_CONSTANT;
+			popGrowth = -0.15;
 		
 		
 		population += popGrowth * Time.deltaTime;

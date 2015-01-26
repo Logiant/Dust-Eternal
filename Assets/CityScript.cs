@@ -6,10 +6,10 @@ using System.Collections.Generic;
 
 public class CityScript : MonoBehaviour {
 
-	public static float DAY_LENGTH = 1; //seconds per day
+	public static float DAY_LENGTH = 0.1f; //seconds per day
 
 	PopulationScript population;
-	InventoryScript inventory;
+	public InventoryScript inventory;
 
 	public float moneyDecayFactor = 0.001f;
 
